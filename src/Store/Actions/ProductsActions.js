@@ -62,7 +62,7 @@ export const completeProductsAction = () => {
         dispatch(fetchingProductsAction);
         axios({
             method:'get',
-            url:'http://www.mocky.io/v2/5e9ebdaa2d00007800cb7697',
+            url:'https://www.mocky.io/v2/5e9ebdaa2d00007800cb7697',
             headers:{ "Content-Type": "application/json; charset=UTF-8" },
         }).then((data) => {
             const products = Object.keys(get(data, 'data.products.compareSummary.titles') || {});
