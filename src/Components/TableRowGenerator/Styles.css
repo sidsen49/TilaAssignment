@@ -1,0 +1,10 @@
+.categoryStyle {
+    background-color:lightgrey;
+    width:100%;
+}
+td {
+    padding: 8px;
+}
+.tdDesign {
+    border-left: 1px solid grey;
+}

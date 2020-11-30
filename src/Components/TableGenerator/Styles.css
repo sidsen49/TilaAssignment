@@ -1,0 +1,89 @@
+table { border-spacing:0 }
+.outerDiv {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+.compareText {
+    width: 100%;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+.selectionDiv {
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+}
+.displayImageHolder {
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+.displayImage {
+    width: 140px;
+    height: 140px;
+}
+.productName {
+    padding: 2%;
+    margin-top: 5%;
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+}
+.priceHolder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+}
+.discountPrice {
+    display: inline-block;
+    position: relative;
+    color: grey;
+}
+.strikeThrough {
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.discountPercentage {
+    display: inline-block;
+    color: lightgreen;
+}
+.tableHeadBorder {
+    position: relative;
+    height: 243px;
+    width: 205px;
+    padding: 12px;
+    border-bottom: 1px solid grey;
+}
+.crossHolder {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border: 1px solid grey;
+    position: absolute;
+    border-radius: 50%;
+}
+.imgStyle {
+    width:14px;
+    height:14px;
+    transform: translateY(4px);
+}
+.diffStyle {
+    position: absolute;
+    bottom: 10px
+}
+.finalPrice {
+    display: inline-block
+}
