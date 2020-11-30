@@ -9,7 +9,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Switch>
-          <Route path="/" component={TableGenerator} />
+          <Route path="*" component={TableGenerator} />
         </Switch>
       </Router>
     </Provider>
